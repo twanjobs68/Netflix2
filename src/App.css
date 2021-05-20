@@ -1,3 +1,6 @@
+.App{
+  
+}
 .tgflixbx{
   display: flex;
   height: 22px;
@@ -51,18 +54,28 @@ nav{
    justify-content: center;
  }
 
-/*
+ .testPic{
+  padding:0%;
+  width: 100vw;
+  height:90vh;
+  position: relative;
+  background-position: center center cover; 
+  background-image: url(Images/Upshaws.jpg);
+
+}
+
 .sideMenu{
   background-color:black;
   width:10vw;
-  height:70vh;
-  margin:10px;
+  height:90vh;
+  margin:0px;
   justify-content:space-around;
   box-sizing:border-box;
   position:absolute;
   display:flex;
   color:white;
-}*/
+  border: 2px solid black;
+}
 li{
   list-style: none;
   
@@ -76,29 +89,27 @@ li{
   bottom: 0;
 } 
 
-.bgPicture{
-  margin:0%;
+
+/* .bgPicture{ */
+  /* margin:0%;
   padding:0%;
   width: 100vw;
   height:90vh;
   position: relative;
-  /* background-position: center center;  */
+  background-position: center center; 
   background-image: url(Images/Upshaws.jpg);
   /* radial-gradient(rgb:0,0,0,0), (rgb 0,0,0,0,7) no-repeat center center/cover; */
-  background-size: cover; 
-/*image-orientation: from-image;*/
+  /* background-size: cover;  */ 
 /* opacity: .8; */
  /* z-index: -3; */
 
 /* box-shadow: 25px  25px 25px 25px;
 box-sizing: border-box; */
 
-}
-.searchcss{
+/* } */
+/* .searchcss{
   color: white;
-
-
-}
+} */
 
 .aboutcss{
   background-color:white;

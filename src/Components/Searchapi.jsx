@@ -69,7 +69,7 @@ class Searchapi extends Component {
 
                 <h3> {this.state.data.Title} </h3>
                 <ul>
-                <li> {this.state.data.Title}</li>
+                {/* <li> {this.state.data.Title}</li> */}
                     <li> <img src={this.state.data.Poster}/></li>
                     <br></br>
                     <li>Overview : {this.state.data.Plot}</li> 
@@ -81,7 +81,7 @@ class Searchapi extends Component {
                 {/* <input type="text" name="query" className="input"/> */}
                
                 <form onSubmit ={this.handleOnSubmit}>
-                     <input type="text" name="query" placeholder="Enter Movie Name Here: " onChange={this.handleinputChange} value={this.state.userinput}/>
+                     <input type="text" name="query" placeholder="Movie Name-combine words with +: " onChange={this.handleinputChange} value={this.state.userinput}/>
                      {/* <input type="submit" value="Movie Info"/> */}
                      <button className="button" >Search</button>
                 </form>

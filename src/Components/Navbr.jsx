@@ -12,17 +12,18 @@ function Navbr() {
     // }
 
     return (
-        <div className="sideMenu">
+
+        <div className="testPic">
+            <div className="sideMenu">
             {/* < nav > */}
             <ul>
                 <Link to= "/">
                     <h3>HOME</h3>
                 </Link>
                 {/* <ul style = {navStyle}> */}
-                
                 {/*6.wrap each li in link tag*/}
                          
-                <Link to = "/shop">
+                <Link to = "/searchapi">
                     <li>Movie Info</li>
                 </Link>
                 <Link to = "/credits">
@@ -30,6 +31,7 @@ function Navbr() {
                 </Link>
             </ul>
             {/* </nav> */}
+          </div>
         </div>
     );
 }
