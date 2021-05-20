@@ -82,16 +82,16 @@ nav{
 }
 
 .bgPicture{
-  margin:0%;
-  padding:0%;
+  /* margin:0%; */
+  /* padding:0%; */
   width: 100vw;
   height:100vh;
   position: relative;
   background-repeat: no-repeat;
   background-position: center center; 
-  background-image: url(Images/Upshaws.jpg);
+  background-image: url(Images/DareDevil.jpg);
   /* radial-gradient(rgb:0,0,0,0), (rgb 0,0,0,0,7) no-repeat center center/cover; */
-   background-size: cover; 
+   /* background-size: cover;  */
 /* opacity: .8; */
  z-index: -3;
 
