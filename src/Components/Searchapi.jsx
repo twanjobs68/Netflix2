@@ -48,7 +48,7 @@ class Searchapi extends Component {
     handleinputChange = (e) =>{
         //whatever user is typing will be saved.  this is declared in state at top. data is now in line 8
         this.setState({userinput:e.target.value})
-
+        
 
     }
     
@@ -59,15 +59,16 @@ class Searchapi extends Component {
     }
  //. render data for output to Dom
     render() {
+        const movieDescript=(this.state.data.Poster)
     return (
-       
+        
         <div  className="bgPicture" >
             <div className="searchcss">
            
             {/* <nav> */}
             {/*} {data.results.map(data.results => (*/}
 
-                <h3> {this.state.data.Title} </h3>
+                <h3 > {this.state.data.Title} </h3>
                 <ul>
                 {/* <li> {this.state.data.Title}</li> */}
                     <li> <img src={this.state.data.Poster}/></li>
