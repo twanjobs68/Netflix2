@@ -1,21 +1,25 @@
-.App{
-  
-}
+
+ .App {
+  /* text-align: center; */
+  /* margin: .5%; */
+  top:0;
+  bottom: 0;
+} 
+
+
 .tgflixbx{
   display: flex;
   height: 22px;
   width: auto;
-  justify-items: center;
-  align-items:fle-end;
+  justify-items: flex-end;
+  align-items:flex-end;
   padding: 5px;
-  
-
+ 
 }
 
 h1{
-  
-  height: 22vm;
-  width: 150px;
+   height: 22vm;
+  width: 160px;
   /* text-align: center; */
   background: red;
   color: white;
@@ -23,40 +27,9 @@ h1{
   margin: 20%; 
   bottom: 15%;
   justify-content: center;
-  flex:end;
-}
-
-
-/* .nav-links{
-  display: flex;
-  justify-content: space-around;
-  width: 40%;
-  align-items: center;  
-  list-style: none;
-  box-sizing: border-box;
-  top:0;;
-  bottom: 0;
-  left:0;
-  right:30px;
-  background-color: black;
-  color:white;
-  border: 3px solid black;
- } */
-
- .who{
-   align-items: center;
-   justify-content: center;
+  align-items:flex-end;
  }
 
- /* .testPic{
-  padding:0%;
-  width: 100vw;
-  height:50vh;
-  /* position: relative; */
-  /* /background-position: center center cover;  */
-  /* background-image: url(Images/Upshaws1.jpg);
-
-} */ */
 
 nav{
   justify-content: space-around; 
@@ -82,38 +55,23 @@ nav{
 }
 
 .bgPicture{
-  /* margin:0%; */
-  /* padding:0%; */
-  width: 100vw;
-  height:100vh;
-  position: relative;
+ width: 100vw;
+  height:100vh; 
+ /* position: relative; */
   background-repeat: no-repeat;
-  background-position: center center; 
+  background-position: center center;
   background-image: url(Images/DareDevil.jpg);
-  /* radial-gradient(rgb:0,0,0,0), (rgb 0,0,0,0,7) no-repeat center center/cover; */
-   /* background-size: cover;  */
-/* opacity: .8; */
- z-index: -3;
-
-/* box-shadow: 25px  25px 25px 25px;
-box-sizing: border-box; */
-
-}
+  /*z-index: -3;*/ 
+  /*linear-gradient(to-right, black,gray); */
+   background-size: cover;  
+  /* opacity: .8; */
+  /* box-shadow: 25px  25px 25px 25px;*/
+  /* box-sizing: border-box; */ 
+ } 
 
 li{
   list-style: none;
-  
 }
-
-
- .App {
-  /* text-align: center; */
-  /* margin: .5%; */
-  top:0;
-  bottom: 0;
-} 
-
-
 
 /* .searchcss{
   color: white;
@@ -126,3 +84,37 @@ li{
 .homecss{
   background-color: red;
 }
+
+.who{
+  align-items: center;
+  justify-content: center;
+}
+
+ /* .testPic{
+  padding:0%;
+  width: 100vw;
+  height:50vh;
+  /* position: relative; */
+  /* /background-position: center center cover;  */
+  /* background-image: url(Images/Upshaws1.jpg);
+
+} */ 
+
+
+
+
+/* .nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  align-items: center;  
+  list-style: none;
+  box-sizing: border-box;
+  top:0;;
+  bottom: 0;
+  left:0;
+  right:30px;
+  background-color: black;
+  color:white;
+  border: 3px solid black;
+ } */

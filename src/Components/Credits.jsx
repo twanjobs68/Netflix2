@@ -15,10 +15,10 @@ function Credits() {
              background: "purple"
              
          }
-         const thanksStyle={
-             border: "2px solid black",
-             border: "box-shadow 3%"
-         }
+        //  const thanksStyle={
+        //      border: "2px solid black",
+           
+        //  }
 
         return (
             <div>

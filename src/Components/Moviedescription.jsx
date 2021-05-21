@@ -1,6 +1,6 @@
 import React from 'react';
 // import Searchapi from './Components/Searchapi';
-function Moviedescription(movieDescript) {
+function Moviedescription() {
     return (
         <div>
             <ul>

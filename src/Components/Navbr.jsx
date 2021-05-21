@@ -13,7 +13,7 @@ function Navbr() {
 
     return (
 
-        <div className="testPic">
+//<div className="testPic">
             <div className="sideMenu">
             {/* < nav > */}
             <ul>
@@ -23,7 +23,7 @@ function Navbr() {
                 {/* <ul style = {navStyle}> */}
                 {/*6.wrap each li in link tag*/}
                          
-                <Link to = "/searchapi">
+                <Link to = "/moviedescription">
                     <li>Movie Info</li>
                 </Link>
                 <Link to = "/credits">
@@ -32,7 +32,7 @@ function Navbr() {
             </ul>
             {/* </nav> */}
           </div>
-        </div>
+ //       </div>
     );
 }
 export default Navbr;

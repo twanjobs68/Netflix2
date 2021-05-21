@@ -17,13 +17,13 @@ function App() {
      <Navbr/>
        {/*3 make a route to the component by replacing <about /> with the following*/} 
        {/*4.Use Switch(wrap routes in a switch tag. go to path don't render anything else) and Exact to go to exact(if component is exactly the forward slash then go to home) paths*/}
-       <switch>
+       <Switch>
          <Route path ="/" exact component={Searchapi} /> 
          <Route path="/moviedescript" component={Moviedescription}/>
          <Route path ="/searchapi" component={Searchapi}/>
          <Route path="/credits" component={Credits}/>
          <Route path="/netflixlogo" component={Netflixlogo}/>
-       </switch>
+       </Switch>
 
        
     </div>
