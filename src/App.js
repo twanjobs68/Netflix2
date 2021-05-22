@@ -1,13 +1,12 @@
 import './App.css';
 import Navbr from './Components/Navbr';
 import Netflixlogo from './Components/Netflixlogo';
-import Searchapi from './Components/Searchapi';
+import Moviedescription from './Components/Moviedescription';
 import Credits from './Components/Credits';
-
+import Welcomebanner from './Components/Welcomebanner';
+import Home from './Components/Home';
 //1. import browser router from react router dom.  Add switch and route tools from react router dom as well
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
-import Moviedescription from './Components/Moviedescription';
-
 
 function App() {
   return (
@@ -18,9 +17,9 @@ function App() {
        {/*3 make a route to the component by replacing <about /> with the following*/} 
        {/*4.Use Switch(wrap routes in a switch tag. go to path don't render anything else) and Exact to go to exact(if component is exactly the forward slash then go to home) paths*/}
        <Switch>
-         <Route path ="/" exact component={Searchapi} /> 
-         <Route path="/moviedescript" component={Moviedescription}/>
-         <Route path ="/searchapi" component={Searchapi}/>
+         <Route path ="/" exact component={Home} /> 
+         <Route path="/welcomebanner" component={Welcomebanner}/>
+         <Route path ="/searchapi" component={Moviedescription}/>
          <Route path="/credits" component={Credits}/>
          <Route path="/netflixlogo" component={Netflixlogo}/>
        </Switch>

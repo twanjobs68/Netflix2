@@ -8,17 +8,23 @@ function Credits() {
         display: "flex",
         color: "black",
         align: "center",
-        background: "yellow"
+        background: "yellow",
+        border: "2px solid green"
            
          }
          const infoStyle={
-             background: "purple"
+             background: "purple",
+             border: "2px solid orange",
+             height: "15em",
+             width: "35em",
+             margin: "auto"
              
          }
-        //  const thanksStyle={
-        //      border: "2px solid black",
+         const thanksStyle={
+             border: "2px solid black",
+             margin:"auto"
            
-        //  }
+         }
 
         return (
             <div>

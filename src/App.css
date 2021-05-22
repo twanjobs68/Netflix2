@@ -30,7 +30,7 @@ h1{
   align-items:flex-end;
  }
 
-
+/* 
 nav{
   justify-content: space-around; 
   align-items: center;
@@ -39,34 +39,33 @@ nav{
   font-weight: 400;
   box-shadow: 1px 1px 25px .5px rgb(150, 25, 25);
   margin:30%;
- 
-}
+  /*} */
+
 .sideMenu{
   background-color:black;
   width:10vw;
-  height:90vh;
+  height:100vh;
   margin:0px;
   justify-content:space-around;
   box-sizing:border-box;
   position:absolute;
   display:flex;
   color:white;
-  border: 2px solid black;
+  /* linear-gradient=(to-right, black,gray);  */
+  /* border: 2px solid black; */
 }
 
 .bgPicture{
  width: 100vw;
   height:100vh; 
- /* position: relative; */
+
   background-repeat: no-repeat;
   background-position: center center;
   background-image: url(Images/DareDevil.jpg);
-  /*z-index: -3;*/ 
-  /*linear-gradient(to-right, black,gray); */
+
+  
    background-size: cover;  
-  /* opacity: .8; */
-  /* box-shadow: 25px  25px 25px 25px;*/
-  /* box-sizing: border-box; */ 
+
  } 
 
 li{

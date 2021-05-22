@@ -70,7 +70,7 @@ class Searchapi extends Component {
                     {/* pass to companent.  Also-if you want to  link a button to a component be sure to wrap it in the Link as below then add to argument */
              /*to new componen */}
 
-                     <Moviedescription prop={this.state.Plot} proptwo={this.state.Poster} /> 
+                     {/* <Moviedescription prop={this.state.Plot} proptwo={this.state.Poster} />  */}
 
                     {/* <nav> */}
                     {/*} {data.results.map(data.results => (*/}
@@ -87,17 +87,7 @@ class Searchapi extends Component {
 
                     {/* //. create buttons and input for data search*/}
                     {/* <input type="text" name="query" className="input"/> */}
-
                 
-                        <form onSubmit={this.handleOnSubmit}>
-                            <input type="text" name="query" placeholder="Movie Name-combine words with +: " onChange={this.handleinputChange} value={this.state.userinput} />
-                            {/* <input type="submit" value="Movie Info"/> */}
-                            <button className="button" >Search</button>
-                        </form>
-                
-                       <div class="tgFlixbx">
-                        <h1>NETFLIX</h1>
-                    </div>
                 </div>
             </div>
         );
