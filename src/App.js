@@ -2,6 +2,7 @@ import './App.css';
 import Navbr from './Components/Navbr';
 import Netflixlogo from './Components/Netflixlogo';
 import Moviedescription from './Components/Moviedescription';
+import Searchapi from './Components/Searchapi';
 import Credits from './Components/Credits';
 import Welcomebanner from './Components/Welcomebanner';
 import Home from './Components/Home';
@@ -19,7 +20,8 @@ function App() {
        <Switch>
          <Route path ="/" exact component={Home} /> 
          <Route path="/welcomebanner" component={Welcomebanner}/>
-         <Route path ="/searchapi" component={Moviedescription}/>
+         <Route path ="/searchapi" component={Searchapi}/>
+         {/* <Route path ="/moviedescription" component={Moviedescription}/> */}
          <Route path="/credits" component={Credits}/>
          <Route path="/netflixlogo" component={Netflixlogo}/>
        </Switch>

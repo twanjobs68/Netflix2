@@ -1,5 +1,5 @@
 import React from 'react';
-// import moviedescription from './Moviedescription';
+//  import moviedescription from './Moviedescription';
 //5.import link from react router dom so we can link pages
 import {Link} from "react-router-dom"
 function Navbr() {
@@ -20,8 +20,8 @@ function Navbr() {
                     <Link to= "/">
                         <h3>HOME</h3>
                     </Link>
-                    <Link to = "/moviedescription">
-                        <li>Movie Info</li>
+                    <Link to = "/searchapi">
+                        <li>Search Movies</li>
                     </Link>
                     <br></br>
                     <Link to = "/credits">

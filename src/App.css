@@ -43,7 +43,7 @@ nav{
 
 .sideMenu{
   background-color:black;
-  width:10vw;
+  width:auto;
   height:100vh;
   margin:0px;
   justify-content:space-around;
@@ -72,13 +72,14 @@ li{
   list-style: none;
 }
 
-/* .searchcss{
-  color: white;
-} */
-
-.aboutcss{
-  background-color:white;
+.searchcbar{
+  display:flex;
+  border: 2px solid black;
+  background: linear-gradient(45deg, red 155 pink, white);
+ color:black;
+ margin: 101%
 }
+
 
 .homecss{
   background-color: red;
@@ -87,33 +88,11 @@ li{
 .who{
   align-items: center;
   justify-content: center;
+  
 }
 
- /* .testPic{
-  padding:0%;
-  width: 100vw;
-  height:50vh;
-  /* position: relative; */
-  /* /background-position: center center cover;  */
-  /* background-image: url(Images/Upshaws1.jpg);
-
-} */ 
 
 
 
 
-/* .nav-links{
-  display: flex;
-  justify-content: space-around;
-  width: 40%;
-  align-items: center;  
-  list-style: none;
-  box-sizing: border-box;
-  top:0;;
-  bottom: 0;
-  left:0;
-  right:30px;
-  background-color: black;
-  color:white;
-  border: 3px solid black;
- } */
+
