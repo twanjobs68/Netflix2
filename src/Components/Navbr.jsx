@@ -20,9 +20,15 @@ function Navbr() {
                     <Link to= "/">
                         <h3>HOME</h3>
                     </Link>
-                    <Link to = "/searchapi">
-                        <li>Search Movies</li>
+
+                    <Link to = "/welcomebanner">
+                          <li> WELCOME</li>
                     </Link>
+                    <br></br>
+                    <Link to = "/searchapi">
+                        <li>SEARCH</li>
+                    </Link>
+
                     <br></br>
                     <Link to = "/credits">
                         <li>CREDITS</li>

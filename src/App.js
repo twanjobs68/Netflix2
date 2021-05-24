@@ -1,7 +1,7 @@
 import './App.css';
 import Navbr from './Components/Navbr';
 import Netflixlogo from './Components/Netflixlogo';
-import Moviedescription from './Components/Moviedescription';
+// import Moviedescription from './Components/Moviedescription';
 import Searchapi from './Components/Searchapi';
 import Credits from './Components/Credits';
 import Welcomebanner from './Components/Welcomebanner';

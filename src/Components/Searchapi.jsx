@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class Searchapi extends Component {
     constructor(){
         super()
@@ -7,8 +8,6 @@ class Searchapi extends Component {
             this.state={
                 data: [],
                 userinput:""
-
-            
             }    
     }
       
@@ -39,7 +38,7 @@ class Searchapi extends Component {
     //***************************create web page first*************************************************** */
 
     //Es6
-    //e=event which is an object that is input
+    /*3.we=event which is an object that is input*/
     handleinputChange = (e) =>{
         //whatever user is typing will be saved.  this is declared in state at top. data is now in line 8
         this.setState({userinput:e.target.value})
@@ -53,39 +52,37 @@ class Searchapi extends Component {
  //5w. render data for output to Dom
     render() {
     return (
-        
-        
+           
+    
             <div className="searchcss">
            
-            {/* <nav> */}
+       
             {/*1w. create unordered list to display api data*/}
 
                 <h3 > {this.state.data.Title} </h3>
-                <ul><strong></strong>
+                <ul>
                 {/* <li> {this.state.data.Title}</li> */}
                     <li> <img src={this.state.data.Poster}/></li>
                     <br></br>
-                    <li>Overview: {this.state.data.Plot}</li> 
+                    <li> {this.state.data.Plot}</li> 
                     <br></br>
-                    <li>Rated:{this.state.data.Rated} Released Year: {this.state.data.Year}</li> 
+                    <li>{this.state.data.Rated} {this.state.data.Year}</li> 
                 </ul>
-         
-                {/*.w create buttons and input for data search*/}
-                {/* <input type="text" name="query" className="input"/> */}
+        
+                {/*1.w create buttons and input for data search*/}
+                {/*2w <input type="text" name="query" className="input"/> */}
                <div className="searchBar"> 
                 <form onSubmit ={this.handleOnSubmit}>
                      <input className="inputCss" type="text" name="query" placeholder="Enter Movie Name: " onChange={this.handleinputChange} value={this.state.userinput}/>
                      {/*3w when input is entered handleinputChange function takes user input and saves it for call to api in Onsubmit function */}
                      <button className="button" >Search</button>
                  </form>
-            //    </div>  
-               
-            
-                <div class="tgFlixbx">
-                    <h1>NETFLIX</h1>
-                </div>
+                          
+                     <div class="myFlixbx">
+                         <h1>NETFLIX</h1>
+                     </div>
+                 </div>
             </div>
-      
       );
     
     }

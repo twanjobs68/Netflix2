@@ -51,7 +51,7 @@ function Credits() {
                          <h3>Per Scholas Classmates-Encouragement</h3>
                          <h3>Shawn Harris- Inspiration</h3>
                          <h3> Per Scholas Instructor and TA - Guidance</h3>
-                        <h3>Kaedin Grant(my son) - For keeping me awake when I want a NAP!!!</h3>
+                         <h3>Kaedin Grant(my son) - For keeping me awake when I want a NAP!!!</h3>
                     </div>  
                     <div class="myFlixbx">
                       <h1>NETFLIX</h1>

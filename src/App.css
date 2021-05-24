@@ -8,17 +8,23 @@
 
 
 .tgflixbx{
-  display: flex;
+  position: absolute;
   height: 22px;
-  width: auto;
-  justify-items: flex-end;
-  align-items:flex-end;
-  padding: 5px;
+  bottom: -25px;
+  right: 35px;
  
 }
 
+.myFlixbx{
+  position: absolute;
+   /* margin: 36%;*/
+   bottom: -25px;
+   right: 35px;
+  }
+
 h1{
-   height: 22vm;
+
+     height: 22vm;
   width: 160px;
   /* text-align: center; */
   background: red;
@@ -26,45 +32,44 @@ h1{
   border: 3px solid black;
   margin: 20%; 
   bottom: 15%;
-  justify-content: center;
+ /* justify-content: center;*/
   align-items:flex-end;
  }
 
-/* 
-nav{
-  justify-content: space-around; 
-  align-items: center;
-  min-height:5vh;
-  background: green;
-  font-weight: 400;
-  box-shadow: 1px 1px 25px .5px rgb(150, 25, 25);
-  margin:30%;
-  /*} */
+ .homecss{
+  background-color: red;
+}
+
+/* .welcomebanner{ */
+  /* height: 50vpx;
+  width: 50px;
+  text-align: center; 
+  background: red;
+  color: white;
+  border: 3px solid black; */
+/* } */
 
 .sideMenu{
   background-color:black;
   width:auto;
-  height:100vh;
+  height:100%;
   margin:0px;
   justify-content:space-around;
   box-sizing:border-box;
   position:absolute;
-  display:flex;
+  /* display:flex; */
   color:white;
   /* linear-gradient=(to-right, black,gray);  */
   /* border: 2px solid black; */
 }
 
 .bgPicture{
- width: 100vw;
+  width: 100vw;
   height:100vh; 
-
   background-repeat: no-repeat;
   background-position: center center;
   background-image: url(Images/DareDevil.jpg);
-
-  
-   background-size: cover;  
+  background-size: cover;  
 
  } 
 
@@ -72,18 +77,6 @@ li{
   list-style: none;
 }
 
-.searchcbar{
-  display:flex;
-  border: 2px solid black;
-  background: linear-gradient(45deg, red 155 pink, white);
- color:black;
- margin: 101%
-}
-
-
-.homecss{
-  background-color: red;
-}
 
 .who{
   align-items: center;
@@ -91,8 +84,27 @@ li{
   
 }
 
+.searchcss{
+display:flex;
+border: 2px solid red;
+height: 31em;
+width: 35em;
+justify-content: center ;
+margin:auto;
+align-items: center;
 
 
+
+}
+
+
+.searchcbar{
+  display:flex;
+  border: 2px solid black;
+  /*background: linear-gradient(45deg, red 155 pink, white);*/
+  color:black;
+  
+} 
 
 
 
