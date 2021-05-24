@@ -40,15 +40,6 @@ h1{
   background-color: red;
 }
 
-/* .welcomebanner{ */
-  /* height: 50vpx;
-  width: 50px;
-  text-align: center; 
-  background: red;
-  color: white;
-  border: 3px solid black; */
-/* } */
-
 .sideMenu{
   background-color:black;
   width:auto;
@@ -81,6 +72,7 @@ li{
 .who{
   align-items: center;
   justify-content: center;
+  border-radius: 10%; 
   
 }
 
@@ -92,19 +84,26 @@ width: 35em;
 justify-content: center ;
 margin:auto;
 align-items: center;
-
-
-
+background: linear-gradient(10deg,red , pink 30%, white );
 }
 
 
-.searchcbar{
+.searchcBar{
   display:flex;
   border: 2px solid black;
-  /*background: linear-gradient(45deg, red 155 pink, white);*/
   color:black;
-  
+ background-color: lightcoral;
+  border-width: 1em 1em 1em 1em; 
+  border:1em 1em 1em 1em red outset; 
+  float: right;
 } 
 
+.credits{
+  background: linear-gradient(0deg,red , pink 30%, white );
+  
+}
+.welcomebanner{
+  background: linear-gradient(to left top , red, pink 30%, white);
+}
 
 

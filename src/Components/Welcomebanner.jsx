@@ -10,7 +10,7 @@ function Welcomebanner(){
         // flex_direction:"flex-end",
         align_content: "center",
         justify_content: "center",
-        background: "black",
+        // background: "black",
         color: "red",
         padding: "35px"
         
@@ -25,7 +25,10 @@ function Welcomebanner(){
            <p>Happy Searching!!!</p>
            <p>*****Twan Grant*****</p>
 
-        
+           <div class="myFlixbx">
+                <h1>NETFLIX</h1>
+           </div>
+               
         </div>
         
     );
