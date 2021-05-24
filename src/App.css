@@ -102,8 +102,16 @@ background: linear-gradient(10deg,red , pink 30%, white );
   background: linear-gradient(0deg,red , pink 30%, white );
   
 }
-.welcomebanner{
-  background: linear-gradient(to left top , red, pink 30%, white);
+.welcomeBanner{
+  /* background: linear-gradient(35deg , red, pink 30%, white);
+  background: linear-gradient(45deg, red, pink 10%, white); */
+  background: ms-radial-gradient(white 35% , pink, red);
+  background: moz-radial-gradient(white 35%, pink, red);
+  background: -webkit-radial-gradient(white 35%, pink, red);
+  background: o-radial-gradient(white 35%, pink, red);
+  background: radial-gradient(white 35%, pink, red);
+  justify-content: center;
+  align-items: center;
 }
 
 

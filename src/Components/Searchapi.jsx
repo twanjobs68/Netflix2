@@ -9,7 +9,7 @@ class Searchapi extends Component {
                 data: [],
                 userinput:""
             }    
-    }
+        }
       
    //1. create function to make api request.  check console for data
     fetchItems = async (query) =>{
@@ -29,37 +29,32 @@ class Searchapi extends Component {
     console.log(this.state.data)
     
     }
-    //8.see response from api-view console to make sure you are getting data.  If not check what you are receiving
-    //as soon as web page loads (mount)
-    //componentDidMount(){
-     //   this.fetchItems("Twilight")
-    //}
-
+ 
     //***************************create web page first*************************************************** */
 
     //Es6
     /*3.we=event which is an object that is input*/
     handleinputChange = (e) =>{
-        //whatever user is typing will be saved.  this is declared in state at top. data is now in line 8
+
+    //whatever user is typing will be saved.  this is declared in state at top. data is now in line 8
         this.setState({userinput:e.target.value})
     }
+
     /* 4.wwhen form is submited , userinput used to make call and bring back"fetched" data requested by form in the current state*/
     handleOnSubmit = (e) =>{
         e.preventDefault()
-       this.fetchItems(this.state.userinput) 
-                 
+        this.fetchItems(this.state.userinput)          
     }
- //5w. render data for output to Dom
+
+    //5w. render data for output to Dom
     render() {
     return (
            
     
-            <div className="searchcss">
+        <div className="searchcss">
            
-       
-            {/*1w. create unordered list to display api data*/}
-
-                <h3 > {this.state.data.Title} </h3>
+        {/*1w. create unordered list to display api data*/}
+            <h3 > {this.state.data.Title} </h3>
                 <ul>
                 {/* <li> {this.state.data.Title}</li> */}
                     <li> <img src={this.state.data.Poster}/></li>
@@ -71,21 +66,20 @@ class Searchapi extends Component {
         
                 {/*1.w create buttons and input for data search*/}
                 {/*2w <input type="text" name="query" className="input"/> */}
-               <div className="searchBar"> 
-                <form onSubmit ={this.handleOnSubmit}>
-                     <input className="inputCss" type="text" name="query" placeholder="Enter Movie Name: " onChange={this.handleinputChange} value={this.state.userinput}/>
-                     {/*3w when input is entered handleinputChange function takes user input and saves it for call to api in Onsubmit function */}
-                     <button className="button" >Search</button>
-                 </form>
-                          
-                     <div class="myFlixbx">
-                         <h1>NETFLIX</h1>
-                     </div>
-                 </div>
+        <div className="searchBar"> 
+            <form onSubmit ={this.handleOnSubmit}>
+                <input className="inputCss" type="text" name="query" placeholder="Enter Movie Name: " onChange={this.handleinputChange} 
+                value={this.state.userinput}/>
+                {/*3w when input is entered handleinputChange function takes user input and saves it for call to api in Onsubmit function */}
+                <button className="button" >Search</button>
+            </form>
+                         
+            <div class="myFlixbx">
+                <h1>NETFLIX</h1>
             </div>
-      );
-    
-    }
+        </div>
+    </div>
+    );}
 }
 
 
