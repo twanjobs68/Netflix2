@@ -67,7 +67,13 @@ h1{
 li{
   list-style: none;
 }
+#movieSelector{
+  color:black;
+  text-shadow: -3px -3px 4px black;
+  text-align:center;
+  font:20pt "arial black",cursive;
 
+}
 
 .who{
   align-items: center;
@@ -112,6 +118,96 @@ background: linear-gradient(10deg,red , pink 30%, white );
   background: radial-gradient(white 35%, pink, red);
   justify-content: center;
   align-items: center;
+}
+
+.netN {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100%;
+}
+
+.moveNn {
+  position: relative; /* for iOS */
+  animation: move 6s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  from {
+    z-index: 1; /* animate from behind everything... */
+    transform: translate(-60px, -60px) scale(0.5);
+  }
+  to {
+    z-index: 6; /* ...to in front of everything */
+    transform: translate(60px, 10px) scale(1);
+  }
+}
+
+.nnn {
+  width: min(70vw, 400px); /* scales down on smaller screens */
+  animation: bob 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes bob {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(15px);
+  }
+}
+
+myNHdr {
+  position: absolute;
+  z-index: 5;
+  top: calc(50% - 200px); /* fixed distance above walls */
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 3.25rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 0 #111;
+}
+
+.wall {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(3px);
+  transform: translate3d(0, 0, 0); /* prevents blur from disappearing in Safari */
+}
+
+.stop-1 {
+  z-index: 1;
+  top: calc(50% - 60px);
+  background-color: #261b33;
+}
+
+.stop-2 {
+  z-index: 2;
+  top: calc(50% - 40px);
+  background-color: #372c45;
+}
+
+.stop-3 {
+  z-index: 3;
+  top: calc(50% - 10px);
+  background-color: #493d58;
+}
+
+.stop-4 {
+  z-index: 4;
+  top: calc(50% + 30px);
+  background-color: #5d506b;
+}
+
+.stop-5 {
+  z-index: 5;
+  top: calc(50% + 80px);
+  background-color: #70637f;
 }
 
 

@@ -6,6 +6,7 @@ import Searchapi from './Components/Searchapi';
 import Credits from './Components/Credits';
 import Welcomebanner from './Components/Welcomebanner';
 import Home from './Components/Home';
+// import MovingN from './Components/MovingN';
 //1. import browser router from react router dom.  Add switch and route tools from react router dom as well
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 
@@ -21,8 +22,8 @@ function App() {
          <Route path ="/" exact component={Home} /> 
          <Route path="/welcomebanner" component={Welcomebanner}/>
          <Route path ="/searchapi" component={Searchapi}/>
-         {/* <Route path ="/moviedescription" component={Moviedescription}/> */}
          <Route path="/credits" component={Credits}/>
+         {/* <Route path="/moven" component={MovingN}/> */}
          <Route path="/netflixlogo" component={Netflixlogo}/>
        </Switch>
 

@@ -50,8 +50,13 @@ class Searchapi extends Component {
     render() {
     return (
            
-    
+       
+
+   
+
+
         <div className="searchcss">
+
            
         {/*1w. create unordered list to display api data*/}
             <h3 > {this.state.data.Title} </h3>
@@ -67,6 +72,10 @@ class Searchapi extends Component {
                 {/*1.w create buttons and input for data search*/}
                 {/*2w <input type="text" name="query" className="input"/> */}
         <div className="searchBar"> 
+             <div id="movieSelector"><strong>MOVIE SELECTOR</strong></div><br>
+             </br>
+             <br>
+             </br>
             <form onSubmit ={this.handleOnSubmit}>
                 <input className="inputCss" type="text" name="query" placeholder="Enter Movie Name: " onChange={this.handleinputChange} 
                 value={this.state.userinput}/>

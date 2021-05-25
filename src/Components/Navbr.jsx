@@ -4,13 +4,6 @@ import React from 'react';
 import {Link} from "react-router-dom"
 function Navbr() {
 
- //   {/* style inside of component*/}
-    // const navStyle ={
-
-    //     // display: "flex", 
-    //     // justifyContent:"space-around",
-    //     // color: "white"
-    // }
 
     return (
 
@@ -33,6 +26,9 @@ function Navbr() {
                     <Link to = "/credits">
                         <li>CREDITS</li>
                     </Link>
+                    {/* <Link to ="/moven">
+                        <li>ANIMATION</li>
+                    </Link> */}
                 </ul>
             </div>
  //       </div>
