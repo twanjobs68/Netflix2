@@ -85,6 +85,7 @@ li{
 .searchcss{
 display:flex;
 border: 2px solid red;
+box-shadow: 0 0 100px ;
 height: 31em;
 width: 35em;
 justify-content: center ;
