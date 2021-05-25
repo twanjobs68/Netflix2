@@ -227,5 +227,13 @@ myNHdr {
   top: calc(50% + 80px);
   background-color: #70637f;
 }
+.button{
+  color:white;
+  font-weight:bold;
+  text-decoration: none;
+  display:block;
+  background: red;
+  border:5px inset red;
+  }
 
 

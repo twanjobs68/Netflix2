@@ -63,7 +63,7 @@ class Searchapi extends Component {
                 <ul><strong>
                 {/* <li> {this.state.data.Title}</li> */}
                     <li> <img src={this.state.data.Poster}/></li>
-                    <br></br>
+                    
                     <li> {this.state.data.Plot}</li> 
                     <li>{this.state.data.Rated} {this.state.data.Year}</li> 
                     </strong></ul>
