@@ -40,6 +40,10 @@ h1{
   background-color: red;
 }
 
+.creditsBackground{
+  background-color: black;
+}
+
 .sideMenu{
   background-color:black;
   width:auto;
@@ -112,13 +116,26 @@ background: linear-gradient(10deg,red , pink 30%, white );
 .welcomeBanner{
   /* background: linear-gradient(35deg , red, pink 30%, white);
   background: linear-gradient(45deg, red, pink 10%, white); */
-  background: ms-radial-gradient(white 35% , pink, red);
-  background: moz-radial-gradient(white 35%, pink, red);
+  background: -ms-radial-gradient(white 35% , pink, red);
+  background: -moz-radial-gradient(white 35%, pink, red);
   background: -webkit-radial-gradient(white 35%, pink, red);
-  background: o-radial-gradient(white 35%, pink, red);
+  background: -o-radial-gradient(white 35%, pink, red);
   background: radial-gradient(white 35%, pink, red);
   justify-content: center;
   align-items: center;
+}
+#welcomeBackground{
+  /* background-color: green; */
+   width: 67em;
+  height: 30em;
+  border:5px solid black;
+  float:bottom;
+  background: -ms-repeating-linear-gradient(pink, gray 10%, white 30%); 
+  background: -moz-repeating-linear-gradient( pink, gray 10%, white 30%); 
+  background: -webkit-repeating-linear-gradient(pink, gray 10%, white 30%); 
+  background: -o-repeating-linear-gradient( pink, gray 10%, white 30%); 
+  background: repeating-linear-gradient(pink, gray 10,% white 30%); 
+
 }
 
 .netN {

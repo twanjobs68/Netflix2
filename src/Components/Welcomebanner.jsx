@@ -16,19 +16,18 @@ function Welcomebanner(){
     }
 
     return (
-        <div className="welcomeBanner" style={welcomestyle}>
-          <strong> <p> WELCOME TO TWANS MOVIE SEARCH inspired by NETFLIX</p>
-           <p> I hope you enjoy searching for all your favorite movies.</p>
-           <p>Thanks for using this App.  I had fun creating it!</p>
-           <p>Happy Searching!!!</p>
-           <p>*****Twan Grant*****</p></strong>
-
-           <div class="myFlixbx">
-                <h1>NETFLIX</h1>
-           </div>
-               
+        <div id="welcomeBackground">
+            <div className="welcomeBanner" style={welcomestyle}>
+                <strong> <p> WELCOME TO TWANS MOVIE SEARCH inspired by NETFLIX</p>
+                <p> I hope you enjoy searching for all your favorite movies.</p>
+                <p>Thanks for using this App.  I had fun creating it!</p>
+                <p>Happy Searching!!!</p>
+                <p>*****Twan Grant*****</p></strong>
+                <div class="myFlixbx">
+                    <h1>NETFLIX</h1>
+                </div>
+            </div>
         </div>
-        
     );
 }
 

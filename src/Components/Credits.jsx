@@ -23,7 +23,7 @@ function Credits() {
          }
          const thanksStyle={
              display: "flex",
-             height: "8em",
+             height: "10em",
              width: "35em",
              margin:"auto",
              flex_direction:"flex-end",
@@ -34,7 +34,7 @@ function Credits() {
          }
 
         return (
-            <div>
+            <div className="creditsBackground">
     
                  <div className="credits" style={creditStyle}>
                   <strong><center> <h2>CREDITS</h2> </center></strong>

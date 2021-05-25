@@ -60,14 +60,13 @@ class Searchapi extends Component {
            
         {/*1w. create unordered list to display api data*/}
             <h3 > {this.state.data.Title} </h3>
-                <ul>
+                <ul><strong>
                 {/* <li> {this.state.data.Title}</li> */}
                     <li> <img src={this.state.data.Poster}/></li>
                     <br></br>
                     <li> {this.state.data.Plot}</li> 
-                    <br></br>
                     <li>{this.state.data.Rated} {this.state.data.Year}</li> 
-                </ul>
+                    </strong></ul>
         
                 {/*1.w create buttons and input for data search*/}
                 {/*2w <input type="text" name="query" className="input"/> */}
